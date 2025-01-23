@@ -1,5 +1,5 @@
 import "./Service.css";
-import Img1 from "../../../assets/service14.jpg";
+import Img1 from "../../../assets/service8.jpg";
 import Img2 from "../../../assets/service11.jpg";
 import Img3 from "../../../assets/service6.jpg";
 import Img4 from "../../../assets/service9.jpg";
@@ -31,7 +31,7 @@ const Service = () => {
                 <div className="ustoz-img">
                   <img src={Img1} alt="" />
                 </div>
-                <span className="ustoz-text">Buxoriy learning center</span>
+                <span className="ustoz-text">Uy Market</span>
               </div>
               <div className="ustoz">
                 <div className="ustoz-img">

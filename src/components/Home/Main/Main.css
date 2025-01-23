@@ -75,7 +75,7 @@
 }
 .text-pro{
   color: #fff;
-  font-size: 60px;
+  font-size: 40px;
   text-transform: uppercase;
   line-height: 1.5;
   width: 95%;
@@ -183,7 +183,7 @@
     font-size: 18px;
   }
   .text-pro{
-    font-size: 45px;
+    font-size: 40px;
   }
   .card2-text1{
     font-size: 30px;
@@ -222,7 +222,7 @@
     font-size: 16px;
   }
   .text-pro{
-    font-size: 40px;
+    font-size: 35px;
   }
   .card2-text1{
     font-size: 25px;
@@ -291,7 +291,7 @@
   }
   .text-pro{
     width: 100%;
-    font-size: 35px;
+    font-size: 30px;
     margin: 0 auto;
   }
   .main-btns{
@@ -408,8 +408,8 @@
     gap: 10px;
   }
   .text-pro{
-    width: 85%;
-    font-size: 30px;
+    /* width: 85%; */
+    font-size: 25px;
     margin: 0 auto;
     text-align: center;
   }
@@ -445,8 +445,8 @@
     font-size: 12px;
   }
   .text-pro{
-    width: 100%;
-    font-size: 20px;
+    /* width: 100%; */
+    font-size: 25px;
   }
   .card2-text1{
     font-size: 18px;

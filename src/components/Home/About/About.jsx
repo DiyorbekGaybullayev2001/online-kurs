@@ -19,8 +19,10 @@ const About = () => {
         {
             id:2,
             img:Img2,
-            title:"Noyob savdo taklifini yaratish",
-            desc:"Biznes uchun noyob savdo taklifini yaratish",
+            title:"1000$ Daromadga chiqish siri",
+            desc:"Samarali reklama strategiyasini tuzish.",
+            // title:"Noyob savdo taklifini yaratish",
+            // desc:"Biznes uchun noyob savdo taklifini yaratish",
         },
         {
             id:3,
@@ -31,20 +33,22 @@ const About = () => {
         {
             id:4,
             img:Img4,
-            title:"Facebookda professional target",
-            desc:"Business manager va Facebook Ads Manager orqali target reklamani professional ishga tushirish",
+            title:"Mijoz topishning aniq va samarali usullari.",
+            desc:"Muzokaralarni professional darajada olib borish.",
         },
         {
             id:5,
             img:Img5,
-            title:"Sayt tayyorlash va SMM darsliklari",
-            desc:"Target uchun zarur bo’lgan fundamental bilimlar va natijani yaxshilash uchun instrumentlar",
+            title:"Noyob savdo taklifini yaratish",
+            desc:"Biznes uchun noyob savdo taklifini yaratish",
+            // title:"1000$ Daromadga chiqish siri",
+            // desc:"Samarali reklama strategiyasini tuzish.",
         },
         {
             id:6,
             img:Img6,
             title:"Xizmatlarni sotish",
-            desc:"Targeting xizmatlaringizni mijozlarga sotish orqali daromad topish"
+            desc:"Xizmatlaringizni mijozlarga sotish orqali daromad topish"
         }
     ]
 

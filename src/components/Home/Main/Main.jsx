@@ -26,10 +26,11 @@ const Main = () => {
           <div className="card2-cards">
             <div className="card2-card">
               <h1 className="text-pro">
-                Targeting <span className="text-underline">
-                  <span className="pro0">0 </span> dan
-                  <span className="pro0"> pro</span> </span>{" "}
-                darajagacha
+                Mijozlar oqimini  
+                
+                  <span className="pro0"> 10 </span> barobargacha oshirish  
+                  <span className="pro0"> 1000 $ </span> {" "}
+                  Daromadga chiqish siri
               </h1>
               <span className="card2-text1">Onlayn + Individual kurs</span>
               <del className="del-text1">{`1,000,000 so'm`}</del>
