@@ -37,7 +37,7 @@
   margin-top: 50px;
 }
 .tarif-card {
-  max-width: 450px;
+  max-width: 500px;
   width: 100%;
   min-height: 700px;
   display: flex;
@@ -378,6 +378,9 @@
     flex-direction: column;
     gap: 60px;
   }
+  .tarif-card{
+    max-width: 350px;
+  }
 
   /* modal responsive */
   .modal{
@@ -424,7 +427,7 @@
     margin-top: 30px;
   }
   .tarif-card{
-    max-width: 280px;
+    max-width: 300px;
   }
 
   /* modal responsive */
