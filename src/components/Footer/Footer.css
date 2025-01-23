@@ -1,0 +1,29 @@
+.footer-container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    /* margin-top: 70px; */
+}
+.footers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: linear-gradient(90deg, rgb(36, 38, 51), rgb(44, 45, 45));
+}
+.footer-text{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+@media screen and (max-width:500px) {
+    .footer-text{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:400px) {
+    .footer-text{
+        font-size: 12px;
+    }
+}

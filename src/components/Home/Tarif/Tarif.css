@@ -1,0 +1,476 @@
+.tarif-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 99;
+  margin-bottom: 30px;
+}
+.tarifs {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.tarif-title {
+  background: linear-gradient(135deg, #777373 20%, #fff 80%);
+  background-clip: text;
+  color: transparent;
+  scale: 2;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.position-img {
+  position: absolute;
+  left: -250px;
+  top: 0;
+}
+.tarif-cards {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 50px;
+}
+.tarif-card {
+  max-width: 450px;
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0 auto;
+  gap: 20px;
+  justify-content: space-between;
+  align-content: space-between;
+  background-color: #fff;
+  position: relative;
+  border-radius: 20px;
+}
+.tarif-card-title {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+  text-transform: uppercase;
+  font-size: 40px;
+  position: absolute;
+  top: -40px;
+  left: 25px;
+  padding: 30px 0;
+  width: 90%;
+  background: linear-gradient(90deg, rgb(36, 38, 51), rgb(44, 45, 45));
+  border-radius: 10px;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  border: 1px solid #fff;
+}
+.tarif-items-btnlar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+.tarif-items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 30px;
+  padding: 0 10px;
+}
+.tarif-item {
+  font-size: 20px;
+}
+.tarif-icon {
+  color: #ecd905;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.tarif-btns {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.del-text {
+  color: #aaa;
+  font-size: 30px;
+}
+.btns-text1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.btns-text1 .uzs {
+  font-size: 20px;
+}
+.tarif-btn {
+  width: 90%;
+  padding: 40px 0;
+  background: #9163E7;
+  /* opacity: 0.8; */
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn1 {
+  background: #FADA0A;
+  color: #000;
+}
+.btns-text2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  /* letter-spacing: 1px; */
+  font-weight: 500;
+  text-align: center;
+}
+
+/* modal oyna */
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 500px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.modal-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  width: 70%;
+  margin: 0 auto;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.form-text {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.form-input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.PhoneInputInput {
+  outline: none;
+  border: none;
+}
+.PhoneInput {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  --PhoneInputCountryFlag-height: 30px;
+  --PhoneInputCountryFlag-width: 30px;
+
+}
+.form-btn {
+  background-color: #FADA0A;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 15px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.tarif-form-select{
+  padding: 20px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.tarif-plastik-raqam{
+  color: #000;
+  letter-spacing: 2px;
+  font-size: 30px;
+  padding: 10px 20px;
+  border: 1px solid #aaa;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.tarif-plastik-ism{
+  color: #000;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.tarif-plastik-nusxa{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.tarif-raqam-label{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+.tarif-raqam-label label{
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tarif-labels{
+  color: #000;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* responsive */
+@media screen and (max-width:1200px) {
+  .tarif-title{
+    scale: 1.5;
+  }
+  .position-img{
+    display: none;
+  }
+  .tarif-card{
+    max-width: 400px;
+  }
+  .tarif-card-title{
+    font-size: 30px;
+    width: 80%;
+    left: 38px;
+  }
+  .tarif-btn{
+    width: 80%;
+    font-size: 18px;
+    padding: 30px 0;
+  }  
+}
+
+@media screen and (max-width:800px) {
+  .tarif-title{
+    scale: 1.2;
+  }
+  .tarif-card{
+    max-width: 300px;
+  }
+  .tarif-card-title{
+    font-size: 25px;
+  }
+  .tarif-item{
+    font-size: 18px;
+    align-items: center;
+  }
+  .tarif-btn{
+    font-size: 12px;
+  }
+  .del-text{
+    font-size: 25px;
+  }
+  .btns-text1{
+    font-size: 35px;
+  }
+
+  /* modal responsive */
+}
+@media screen and (max-width:600px) {
+  .tarif-card-title{
+    font-size: 20px;
+    left: 25px;
+  }
+  .tarif-items{
+    padding: 0;
+    gap: 20px;
+  }
+  .tarif-item{
+    font-size: 15px;
+  }
+  .del-text{
+    font-size: 20px;
+  }
+  .btns-text1{
+    font-size: 25px;
+  }
+  .tarif-btn{
+    padding: 20px 0;
+    font-size: 10px;
+  }
+  .btns-text2{
+    font-size: 15px;
+  }
+
+  /* modal responsive */
+  .modal{
+    max-width: 400px;
+  }
+  .modal-title{
+    font-size: 22px;
+    width: 100%;
+  }
+  .form-btn{
+    font-size: 16px;
+  }
+  .tarif-plastik-raqam{
+    font-size: 23px;
+  }
+  .tarif-plastik-nusxa{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:500px) {
+  .tarif-cards{
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  /* modal responsive */
+  .modal{
+    max-width: 330px;
+  }
+  .modal-title{
+    font-size: 15px;
+  }
+  .form-text{
+    font-size: 16px;
+  }
+  .tarif-labels{
+    font-size: 18px;
+  }
+  .PhoneInput {
+    --PhoneInputCountryFlag-height: 25px;
+    --PhoneInputCountryFlag-width: 25px;
+  }
+  .tarif-raqam-label label{
+    font-size: 15px;
+  }
+  .form-btn{
+    font-size: 15px;
+  }
+  .tarif-plastik-raqam{
+    font-size: 17px;
+  }
+  .tarif-plastik-nusxa{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width:400px) {
+  .tarif-title{
+    scale: 1;
+    font-size: 30px;
+  }
+  .tarif-cards{
+    margin-top: 30px;
+  }
+  .tarif-card{
+    max-width: 280px;
+  }
+
+  /* modal responsive */
+  .modal{
+    max-width: 280px;
+  }
+  .modal-title{
+    font-size: 12px;
+  }
+  .tarif-labels{
+    font-size: 15px;
+  }
+  .form-text{
+    font-size: 12px;
+  }
+  .tarif-plastik-raqam{
+    font-size: 15px;
+  }
+  .tarif-raqam-label{
+    margin-top: 10px;
+  }
+  .tarif-raqam-label label{
+    font-size: 12px;
+  }
+  .tarif-raqam-label input{
+    font-size: 10px;
+  }
+  .form-input{
+    padding: 10px 0;
+  }
+  .PhoneInput {
+    --PhoneInputCountryFlag-height: 20px;
+    --PhoneInputCountryFlag-width: 20px;
+  }
+  .tarif-form-select{
+    font-size: 12px;
+    padding: 12px;
+  }
+  .form-btn{
+    font-size: 12px;
+    padding: 12px 0;
+  }
+}
+@media screen and (max-width:350px) {
+  .modal{
+    max-width: 250px;
+    min-height: 350px;
+  }
+  .form-input{
+    padding: 10px;
+  }
+  .form-input::placeholder{
+    font-size: 15px;
+  }
+}
